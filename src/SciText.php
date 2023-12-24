@@ -50,7 +50,7 @@ class SciText extends Plugin
 
     protected function settingsHtml(): ?string
     {
-        return Craft::$app->view->renderTemplate('_scitext/_settings.twig', [
+        return Craft::$app->view->renderTemplate('sci-text/_settings.twig', [
             'plugin' => $this,
             'settings' => $this->getSettings(),
         ]);

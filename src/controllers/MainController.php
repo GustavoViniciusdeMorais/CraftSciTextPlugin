@@ -23,7 +23,7 @@ class MainController extends Controller
         );
 
         return $this->renderTemplate(
-            '_scitext/main',
+            'sci-text/main',
             [
                 'sectionsList' => $sectionsList,
             ]

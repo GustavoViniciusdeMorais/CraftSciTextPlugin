@@ -16,7 +16,7 @@
         }
     },
     "extra": {
-        "handle": "_scitext",
+        "handle": "sci-text",
         "name": "SciText",
         "developer": "Gustavo Morais",
         "documentationUrl": "",
