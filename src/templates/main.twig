@@ -1,10 +1,10 @@
 {% extends "_layouts/cp.twig" %}
-{% set title = "Morais SciText"|t('plugin-handle') %}
+{% set title = "Summary AI"|t('plugin-handle') %}
 
 {% block content %}
 
     {% if sectionsList|length %}
-        <h4>Choose text from an entry of a section</h4>
+        <h4>Choose text from an entry of a section and generate summary.</h4>
         <select name="" id="select-sectsion-handler" class="">
         {% for section in sectionsList %}
             <option value="{{section.handle}}">

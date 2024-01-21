@@ -78,8 +78,8 @@ class SciText extends Plugin
             function(RegisterCpNavItemsEvent $event) {
                 $event->navItems[] = [
                     'url' => 'scitext',
-                    'label' => 'Morais SciText',
-                    'icon' => '@mynamespace/path/to/icon.svg',
+                    'label' => 'Summary AI',
+                    'icon' => __DIR__ . '/MyCodeIcon.svg',
                 ];
             }
         );
